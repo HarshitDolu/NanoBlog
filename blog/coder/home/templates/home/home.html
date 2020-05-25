@@ -1,0 +1,116 @@
+{% extends 'home/base.html' %}
+
+{% block title %}
+Harshit Jain
+{% endblock %}
+
+
+{% block homeactive %}
+active
+{% endblock %}
+
+{% block body %}
+{% load static %}
+
+<link href="{% static 'home/css/style.css'  %}" rel="stylesheet" type="text/css"
+	  xmlns:color="http://www.w3.org/1999/xhtml" xmlns:color="http://www.w3.org/1999/xhtml">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+
+
+	<br>
+<div class="container">
+<h3>printf("hello world!") <br><p>Welcome to programmer blog!!!!!!!!</p></h3>
+	<br>
+
+</div>
+	<div class="container">
+
+		<div class="row">
+
+			<div class="col-md-3">
+
+				<div class="card card-body h-100  border-info" id="profile-wrapper">
+					<img id="profile-pic" src="{% static 'home/img/my-face.jpg' %}" >
+					<hr>
+					<h4>Hi I'm Harshit!</h4>
+					<p>I love coding, exploring and collaborating</p>
+				</div>
+			</div>
+
+			<div class="col-md-9">
+				<div class="card card-body h-100  border-info">
+					<h4>My First internship as a Developer in IIT Bombay(FOSSEE)</h4>
+					<hr>
+					<p>This internship was based on developing Employer recommendation system for spoken Tutorial</p>
+
+					<p>This system is for both students and employers where students will upload their profile details and employer will create their company profile and post the jobs.Then on the basis of skills jobs will be recommended to students and deserving students to employer.</p>
+
+					<p>It helps me to understand Django in advance level and basics of recommender systems.</p>
+
+					<ul class="social-links">
+
+						<li><a href="https://m.facebook.com/profile.php?id=100035035094924&refsrc=http%3A%2F%2Fwww.youtube.com%2F&_rdr"><img class="social" src="{% static 'home/img/fb.png' %}"></a></li>
+						<li><a href="https://github.com/HarshitDolu"><img class="social" src="{% static 'home/img/gitimg.png' %}"></a></li>
+						<li><a href="https://www.linkedin.com/in/harshitjain-nita"><img class="social" src="{% static 'home/img/linkimg.png' %}"></a></li>
+						<li><a href="https://www.youtube.com/channel/UCyW9dCDLcrxJPZoi3ep2hDg"> <img class="social" src="{% static 'home/img/yt.png' %}"></a></li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Experience in Code Asylum bootcamp</h5>
+					<hr>
+					<p>Training in Machine Learning.</p>
+					<p>I learnt concepts of ML from feature extraction to model implementation, basics of NLP and done cool projects like price comparator and skillTeller.I have participated in their Hackathon where I build website using Django and integrated Ml models in it.</p>
+					</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>What I Know</h5>
+					<hr>
+					<p>Python, Django, HTML/CSS, C, C++, Java, web scraping and a whole bunch more I can’t possibly mention in one sentence! ;)</p>
+					<p>PS: Working on Machine Learning, NLP and Recommender system</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>How I Learn</h5>
+					<hr>
+					<p>Reverse Engineer & Build Ugly Prototypes First.</p>
+
+					<p>I can learn just about anything by having a final product to tear apart piece by piece. I break the code where I need to figure out why things work the way they do. Documentation is just a reference.</p>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Short Term Goals</h5>
+				<hr>
+				<p>I'll collaborating and sharing my experience with others on my blog (Programmer) & youtube channel.</p>
+				<p>Aside from building small projects I would love to enter a position where I can be part of a bigger team & learn from others with more experience than myself.</p>
+
+				</div>
+			</div>
+		</div>
+		<br>
+
+			<div class="col-md12 col-xs-12 copyright">
+						<h6>&copy; Made with &hearts; by Harshit Jain in 2020. All Rights Reserved.</h6>
+					</div>
+	</div>
+
+
+
+
+{% endblock %}
