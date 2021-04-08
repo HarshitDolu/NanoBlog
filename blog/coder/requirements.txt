@@ -3,7 +3,7 @@ boto3==1.13.15
 botocore==1.16.15
 checksum==1.0.4
 cheroot==8.3.0
-Django==3.0.6
+Django==3.0.14
 django-filter==2.2.0
 django-storages==1.9.1
 docutils==0.15.2
